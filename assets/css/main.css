@@ -151,7 +151,7 @@ input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 2.375rem;
 	}
 
 	a {
@@ -189,11 +189,23 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			border-bottom: 0;
-			color: inherit;
-			text-decoration: none;
-		}
+	/*Soren custom tags*/
+	.h7 {
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 900;
+		line-height: 1.5;
+		letter-spacing: 0.075em;
+		text-transform: uppercase;
+		margin: 0 0 1rem 0;
+		font-size: 3rem;
+	}
+	/*end custom tags*/
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		border-bottom: 0;
+		color: inherit;
+		text-decoration: none;
+	}
 
 	h1 {
 		font-size: 4rem;
@@ -3766,7 +3778,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: solid 0px #eeeeee;
 			margin: 0;
 		}
 
@@ -3863,9 +3875,9 @@ input, select, textarea {
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				border-left-width: 0px;
 				border-style: solid;
-				border-top-width: 2px;
+				border-top-width: 0px;
 				text-align: center;
 			}
 
